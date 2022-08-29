@@ -1,6 +1,6 @@
 
 
-const helloWorld = () => {
+const helloWorld = (): void => {
     console.log("hello world")
 }
 
