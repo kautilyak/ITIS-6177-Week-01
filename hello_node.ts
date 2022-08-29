@@ -7,4 +7,7 @@ const listener = (req: any, res: any): void => {
 
 
 const server: http.Server = http.createServer(listener);
-server.listen(8080);
+const PORT = 8080;
+server.listen(PORT, () => {
+    console.log(`listening on port ${PORT}`)
+});
